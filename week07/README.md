@@ -9,6 +9,7 @@ VS Code開啟本資料夾。Windows PowerShell：
 
 ```powershell
 py -3.14 -m venv .venv
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 python -m pip check
