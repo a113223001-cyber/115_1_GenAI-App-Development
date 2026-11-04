@@ -157,6 +157,11 @@ if st.session_state.event_record is not None:
     st.write("這筆紀錄的輸入：", record["input"])
     # st.json將dict以可展開的JSON格式顯示，方便檢視欄位；不會替資料做Schema驗證。
     st.json(record["data"])
+    st.write("活動名稱:",record["data"]["title"])
+    owner=record["data"]["owner"]
+    if owner is None:
+        owner="尚未指定"
+        st.write("負責人:",owner)
     # TODO C：以st.write顯示活動名稱與負責人；owner為None時顯示「尚未指定」。
     # st.info提供一般提示；這裡提醒學生完成結果顯示練習。
-    st.info("欄位顯示尚未完成，請完成TODO C。")
+
