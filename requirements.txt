@@ -1,4 +1,5 @@
-# Windows／Python3.14.0獨立環境已驗證；2026-10-23。
+# Windows／Streamlit Community Cloud 共用依賴。
 streamlit==1.63.0
 openai==2.49.0
+pydantic==2.14.3
 python-dotenv==1.2.3

@@ -1,4 +1,4 @@
-streamlit
-openai
-pydantic
-python-dotenv
+streamlit==1.63.0
+openai==2.49.0
+pydantic==2.14.3
+python-dotenv==1.2.3
