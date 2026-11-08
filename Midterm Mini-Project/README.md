@@ -138,21 +138,23 @@ OPENAI_MODEL = "gpt-5.4-mini"
 | Pydantic Structured Outputs | 已由程式實作；真實結果需實際 API 驗證。 |
 | 本機正常資料真實 API 測試 | 已完成；實際輸入、五欄輸出與人工核對見驗收紀錄；1 次請求。 |
 | 本機資訊不足真實 API 測試 | 已完成；模型正確識別不足、未補造資料；1 次請求。 |
-| Streamlit Community Cloud 部署 | 未測。待建立並提供可開啟的 App 網址。 |
-| 雲端真實 API 成功紀錄 | 未測。不能只用本機測試或模擬回應代替。 |
+| Streamlit Community Cloud 部署 | 已完成；App 網址：https://1151genai-app-development-bw9sgbzjgs3abx5zotcg7.streamlit.app |
+| 雲端正常資料真實 API 測試 | 已完成；識別早餐與午餐、估算熱量並逐欄核對；1 次請求。 |
+| 雲端資訊不足真實 API 測試 | 已完成；正確拒絕估算並要求補充餐點與份量；1 次請求。 |
 
-Cloud 部署與驗收資訊待部署完成後補上：
+Cloud 部署與驗收資訊：
 
 ```text
-App 網址：待填
-部署日期：待填
-部署分支：待填
-Main file path：Midterm Mini-Project/app.py
-雲端 Python 版本：待填
-雲端驗證模型：待填
-雲端正常案例：待填
-雲端資訊不足案例：待填
-實際 API 請求數：待填
+App 網址：https://1151genai-app-development-bw9sgbzjgs3abx5zotcg7.streamlit.app
+部署日期：2026-11-09
+部署分支：main
+Cloud Main file path：app.py
+專案實際入口：Midterm Mini-Project/app.py
+雲端 Python 版本：待正式查看 Logs 後補填
+雲端驗證模型：gpt-5.4-mini（以 Cloud Secrets 設定為準）
+雲端正常案例：已完成；1 次 API request
+雲端資訊不足案例：已完成；1 次 API request
+雲端 API 合計：2 次請求
 ```
 
 ## 10. 成本與限制
