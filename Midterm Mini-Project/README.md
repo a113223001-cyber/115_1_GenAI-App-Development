@@ -4,6 +4,9 @@
 
 > 本工具僅供日常飲食參考，不是醫療診斷或營養治療建議。熱量與營養估算可能不準確，需由使用者自行核對。
 
+GitHub Repo：[115_1_GenAI-App-Development](https://github.com/a113223001-cyber/115_1_GenAI-App-Development)
+Streamlit Community Cloud App：[外食族飲食營養粗估器](https://1151genai-app-development-5juogafdxsdhmtahoxusdp.streamlit.app)
+
 ## 1. 使用者與問題
 
 目標使用者是外食族、控制飲食或體重者，以及想快速了解一整天飲食結構的學生與上班族。
